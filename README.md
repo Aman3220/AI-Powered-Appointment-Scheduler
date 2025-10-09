@@ -96,4 +96,6 @@ curl -X POST http://localhost:3000/api/text \
 **request and response of document based api**
 
 **document**
+![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document.png)
+
 **response**
