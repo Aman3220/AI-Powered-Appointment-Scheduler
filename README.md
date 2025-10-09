@@ -24,7 +24,7 @@ Build a backend service that parses natural language or document-based appointme
 
 ## 🔗 API Endpoints
 
-### 1️⃣ **Text API**
+###  **Text API**
 
 **Endpoint:**  
 http://localhost:3000/api/text
@@ -37,7 +37,7 @@ http://localhost:3000/api/text
 
 ---
 
-### 1️⃣ **Document API**
+### **Document API**
 http://localhost:3000/api/document
 
 **Sample Query:**
@@ -46,13 +46,15 @@ document in jpeg|jpg|png|gif format
 
 ---
 
-**Sample cURL Command**
+## 🔗 Sample cURL Command
+
+**Request**
 curl -X POST http://localhost:3000/api/text \
   -H "Content-Type: application/json" \
   -d "{\"query\": \"I want to book an appointment yesterday at 3 PM for a dental checkup.\"}"
 
 
-**output**
+**Response**
 {
   "status": "ok",
   "pipeline_results": {
@@ -87,15 +89,18 @@ curl -X POST http://localhost:3000/api/text \
     }
   }
 }
+
 ---
-**File structure, route and server start image**
+
+## 🔗 File structure, route and server start image**
 
 
-**request and response of text based api**
+## 🔗 Request and Response of text based api
 
-**request and response of document based api**
+## 🔗 Request and Response of document based api
 
 **document**
 ![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document.png)
 
 **response**
+![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document.png)
