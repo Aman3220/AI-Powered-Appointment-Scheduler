@@ -21,6 +21,28 @@ Build a backend service that parses natural language or document-based appointme
 - Timezone: Asia/Kolkata  
 
 ---
+## ⚙️ File Structure📦 AI-Powered Appointment Scheduler
+├── controllers/
+│   └── controller.js
+│
+├── middleware/
+│   └── upload.js
+│
+├── routes/
+│   └── route.js
+│
+├── services/
+│   └── ai_service.js
+│
+├── uploads/                # Folder where uploaded images are stored
+│
+├── .env                    # Environment variables
+├── .gitignore
+├── eng.traineddata         # Tesseract language data
+├── index.js                # Main server entry point
+├── package.json
+└── package-lock.json
+
 
 ## 🔗 API Endpoints
 
