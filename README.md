@@ -30,7 +30,7 @@ Build a backend service that parses natural language or document-based appointme
 http://localhost:3000/api/text
 
 **Sample Query:**
-```json
+
 {
   "query": "I want to book an appointment yesterday at 3 PM for a dental checkup."
 }
