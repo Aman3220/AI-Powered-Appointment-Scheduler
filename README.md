@@ -93,14 +93,16 @@ curl -X POST http://localhost:3000/api/text \
 ---
 
 ## 🔗 File structure, route and server start image**
-
+![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/route_filestructure.png)
 
 ## 🔗 Request and Response of text based api
+![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/test_api.png)
+
 
 ## 🔗 Request and Response of document based api
 
-**document**
+**Request**
 ![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document.png)
 
-**response**
-![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document.png)
+**Response**
+![Document Screenshot](https://github.com/Aman3220/Plum-Assessment/blob/main/assets/document_api.png)
