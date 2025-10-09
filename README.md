@@ -35,14 +35,16 @@ http://localhost:3000/api/text
   "query": "I want to book an appointment yesterday at 3 PM for a dental checkup."
 }
 
+---
+
 ### 1️⃣ **Document API**
 http://localhost:3000/api/document
 
 **Sample Query:**
 
-//document in jpeg|jpg|png|gif format
+document in jpeg|jpg|png|gif format
 
-
+---
 
 **Sample cURL Command**
 curl -X POST http://localhost:3000/api/text \
@@ -85,8 +87,9 @@ curl -X POST http://localhost:3000/api/text \
     }
   }
 }
-
+---
 **File structure, route and server start image**
+
 
 **request and response of text based api**
 
