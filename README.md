@@ -1,5 +1,3 @@
-# Plum-Assessment
-
 # 🧠 AI-Powered Appointment Scheduler Assistant
 
 An intelligent backend service that parses both **text-based** and **image-based** appointment requests using **OCR**, **Entity Extraction**, and **Normalization**, and produces structured JSON output.
